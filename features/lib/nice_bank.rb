@@ -7,7 +7,7 @@
 # Visit http://www.pragmaticprogrammer.com/titles/hwcuc for more book information.
 #---
 class Account
-  def deposit(amount)
+  def credit(amount)
     @balance = amount
   end
   def balance
