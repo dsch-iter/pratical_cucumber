@@ -6,7 +6,6 @@
 # We make no guarantees that this code is fit for any purpose. 
 # Visit http://www.pragmaticprogrammer.com/titles/hwcuc for more book information.
 #---
-World(KnowsTheDomain)
 Given /^my account has been credited with (#{CAPTURE_CASH_AMOUNT})$/ do |amount|
   my_account.credit(amount)
 end
